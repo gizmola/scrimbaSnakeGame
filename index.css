@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    overflow: hidden;
+    width: 100wh;
+    height: 100vh;
+    color: #990D35;
+    background-color: #FCD581;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgb(82, 4, 4);   
+}
+h2 {
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(82, 4, 4);   
+}
+
+#gameOver {
+    display: none;   
+}
+
+button:focus,
+button {
+    font-size: inherit;
+    border: none;
+    border-style: none;
+    outline: 0 none;
+    padding: 10px 25px;
+    background-color: #990D35;
+    color: #fff;
+}
+
+button:hover {
+    font-size: inherit;
+    border: none;
+    border-style: none;
+    outline: 0 none;
+    padding: 10px 25px;
+    background-color: #fff;
+    color: #990D35;
+}
+
+#score {
+    color: black;
+    text-shadow: 1px 1px 2px rgb(54, 54, 54);
+}
+
+.container {
+    text-align: center;
+    margin: 20px auto;
+    height: 100%;
+}
+
+.grid {
+    background-color: #FFF8E8;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    border: solid 2px black;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    opacity: 0.85;
+}
+
+i {
+    line-height: inherit!important;
+    vertical-align: middle;
+    color: rgb(4, 99, 19);
+}
