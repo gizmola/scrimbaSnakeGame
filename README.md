@@ -28,3 +28,4 @@ With each keystroke, the direction of the snake is changed, and this will be eva
 - When I created this game I was on a "code js with no semicolons" kick, but I decided subsequently that is anti-pattern, and semi-colons should always be used.
 
 ## Demo
+[Netlify Hosted](https://effortless-narwhal-5156fc.netlify.app/)
